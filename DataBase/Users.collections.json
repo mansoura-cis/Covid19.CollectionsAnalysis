@@ -1,0 +1,29 @@
+[
+    {
+        "Id": "string",
+        "Name": "string",
+        "Image": "string",
+        "age": "int",
+        "PhoneNumber":"string",
+        "Roles": [
+            {
+                "role": "Admin"
+            },
+            {
+                "role": "Citizen"
+            },
+            {
+                "role": "COVID-19 patiant"
+            }
+        ],
+        "MedicalHistoryRecord": [
+            {
+                "IllnessName":"string",
+                "IllnessStatus":"enum{Recovered , Exist}",
+                "startDate":"DateTime",
+                "EndDate":"DateTime",
+                "Details":"string"
+            }
+        ]
+    }
+]

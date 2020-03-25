@@ -1,0 +1,23 @@
+[
+    {
+        "id": "string",
+        "Governorate" :"string",
+        "Picture":"string",
+        "latitude":"string",
+        "longitude":"string", 
+        "name" : "string",
+        "area" : "int",
+        "ownerid": "string",
+        "status" : "enum{Empty ,Normal , crowded}",
+        "CoronaStatus" : "enum {exist , clean , nearby }",
+        "Comments" :[
+            {
+                "userid" : "string",
+                "body":"string"
+
+            }
+        ]
+
+
+    }
+]

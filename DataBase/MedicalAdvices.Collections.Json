@@ -1,0 +1,17 @@
+[
+    {
+    "Id":"string",
+    "IssuserId":"string",
+    "Steps":[
+        {
+            "stepPosition":"int",
+            "stepMediaType":"Enum{Video , Audio , Image}",
+            "stepMediaPath":"string",
+            "stepDescription":"string"
+        }
+    ],
+    "evaluation":"int[1:100]"
+    
+  } 
+  
+]

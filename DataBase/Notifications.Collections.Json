@@ -1,0 +1,9 @@
+[
+    {
+        "Id":"string",
+        "Body":"string",
+        "PuplisherId" :"string",
+        "PublishedDate":"Datetime"
+
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "PostId": "string",
+        "IssuerId": "string",
+        "Body":"string",
+        "Images":[
+            {"path":"string"}
+        ],
+        "comments":[
+          {
+              "userId":"string",
+              "body":"string"
+          }
+
+        ],
+        "Interactions":{
+            "likes":[
+                {"userid":"string"}
+
+            ],
+            "dislikes":[
+                {"userid":"string"}
+
+            ]
+        }
+        
+    }
+]
